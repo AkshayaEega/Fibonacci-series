@@ -2,7 +2,7 @@ package com.hva.learning;
 
 public class Fibonacci {
 	public int[] fibonacci(int n) {
-		int[] fib_series = new int[n];
+		int[] fib_series = new int[n]; 
 		if (n < 0) {
 			throw new NegativeArraySizeException();
 		} else {
